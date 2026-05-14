@@ -1,0 +1,15 @@
+# Creates an option for Gnome terminal in Nautilus's Open With context menu
+
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MenuTerminal
+Comment=Open file/folder in GNOME Terminal
+Exec=gnome-terminal --working-directory=%U .
+Icon=utilities-terminal
+Terminal=false
+Categories=System;TerminalEmulator;
+MimeType=text/plain;application/x-shellscript;inode/directory;
+NoDisplay=false
+StartupNotify=true
