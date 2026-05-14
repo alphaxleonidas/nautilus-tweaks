@@ -6,7 +6,13 @@ Context menu scripts for Nautilus. And other Nautilus related tweaks.
 
 # Installation:
 
+```
+cd ~ 
+git clone https://www.github.com/alphaxleonidas/linux-tweaks.git
+cp -v ~/linux-tweaks/OpenWith/menuterminalgnome.desktop ~/.local/share/applications
+cp -v ~/linux-tweaks/scripts/* ~/.local/share/nautilus/scripts
 
+```
 
 
 
