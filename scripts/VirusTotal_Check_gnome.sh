@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Bash Script to check the FileHash and run it through VirusTotal. (Uncomment line 34-41 to allow file uploads)
+
+
 # --- Configuration ---
 API_KEY="whateverapikey"
 BASE_URL="https://www.virustotal.com/api/v3"
@@ -27,6 +30,7 @@ if [ "$HTTP_CODE" -eq 200 ]; then
     xdg-open "https://www.virustotal.com/gui/file/$HASH"
 
 # Upload if file not scanned before. CAUTION: It will upload your sensitive documents which can be viewed by anyone.
+
 #elif [ "$HTTP_CODE" -eq 404 ]; then
 #    echo "File not found, uploading for scanning..."
 #    curl --request POST \
