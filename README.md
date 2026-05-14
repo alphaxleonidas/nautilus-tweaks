@@ -9,9 +9,11 @@ Context menu scripts for Nautilus. And other Nautilus related tweaks.
 ```
 cd ~ 
 git clone https://www.github.com/alphaxleonidas/linux-tweaks.git
-cp -v ~/linux-tweaks/OpenWith/menuterminalgnome.desktop ~/.local/share/applications
-cp -v ~/linux-tweaks/scripts/* ~/.local/share/nautilus/scripts
-
+cp -v ~/linux-tweaks/OpenWith/menuterminalgnome.desktop ~/.local/share/applications/
+cp -v ~/linux-tweaks/nautilus_scripts/* ~/.local/share/nautilus/scripts
+chmod +x ~/.local/share/applications/menuterminalgnome.desktop
+chmod +x ~/.local/share/nautilus/scripts/VirusTotal_gnomeT.sh
+nano ~/.local/share/nautilus/scripts/VirusTotal_gnomeT.sh
 ```
 
 
